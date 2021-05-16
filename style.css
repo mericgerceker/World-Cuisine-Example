@@ -1,0 +1,35 @@
+body {
+    background-image: url("./images/bg.jpg");
+    background-repeat: repeat;
+}
+
+.title {
+    font-family: 'Dancing Script', cursive;
+    font-size: 5rem;
+}
+
+*.unselectable {
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+ 
+    /*
+      Introduced in Internet Explorer 10.
+      See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+    */
+    -ms-user-select: none;
+    user-select: none;
+ }
+
+ .menu .card .card-img {
+    object-fit: cover;
+    width: 100%;
+    opacity: 0.3;
+ }
+
+ .categories .btn {
+     padding-left: 2rem;
+     padding-right: 2rem;
+     margin-left: 1rem;
+     margin-right: 1rem;
+ }
